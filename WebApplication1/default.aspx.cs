@@ -16,10 +16,10 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            var ChannelAccessToken = "3muq--------請用你自己的---------nyilFU=";
+            var ChannelAccessToken = "GD3FGHjJmIZVTT0lYEUb2znRG6oIhG5thKUB9MotItS1WyfNGPelF148SobaWZMGooCazVMZZLzl92/j6uddgRbMbkXy1Gfj8m1ojkMbs+Nr4rsRU3qz2SNVEj/zjaeYBhWa3IgjhXAfLrb9gaGZrQdB04t89/1O/w1cDnyilFU=";
             isRock.LineBot.Bot bot = new isRock.LineBot.Bot(ChannelAccessToken);
 
-            var UserID = "U6ca03-------請用你自己的-------6126809a5f";
+            var UserID = "Uf61bf68e7cfaedec8be1db4f007fa3b6";
 
             //push text
             //bot.PushMessage(UserID, "test");
